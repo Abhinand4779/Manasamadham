@@ -9,7 +9,7 @@ const CrossSVG = () => (
 const bestWishes = [
   'Preslin Paul · Deepa Preslin · Eva Preslin',
   'Privelin Paul · Ancy Privelin · Marquez Paul Privelin · Kiarah Mariam Privelin',
-  'Jobzen Shantu Padayattil',
+  
 ]
 
 export default function Footer() {

@@ -2,8 +2,8 @@ import useFadeUp from '../hooks/useFadeUp'
 
 const RingsSVG = () => (
   <svg className="rings-icon" viewBox="0 0 80 40" aria-hidden="true">
-    <circle cx="24" cy="20" r="14" fill="none" stroke="#b8842a" strokeWidth="2.5"/>
-    <circle cx="56" cy="20" r="14" fill="none" stroke="#b8842a" strokeWidth="2.5"/>
+    <circle cx="24" cy="20" r="14" fill="none" stroke="#b8842a" strokeWidth="2.5" />
+    <circle cx="56" cy="20" r="14" fill="none" stroke="#b8842a" strokeWidth="2.5" />
   </svg>
 )
 
@@ -11,7 +11,7 @@ const OrnamentLine = () => (
   <div style={{ display: 'flex', alignItems: 'center', gap: 12, justifyContent: 'center', margin: '16px 0' }}>
     <div style={{ flex: 1, height: 1, background: 'linear-gradient(to right, transparent, #d4a94e)' }} />
     <svg width="12" height="12" viewBox="0 0 12 12" fill="#b8842a" aria-hidden="true">
-      <polygon points="6,0 7.5,4.5 12,6 7.5,7.5 6,12 4.5,7.5 0,6 4.5,4.5"/>
+      <polygon points="6,0 7.5,4.5 12,6 7.5,7.5 6,12 4.5,7.5 0,6 4.5,4.5" />
     </svg>
     <div style={{ flex: 1, height: 1, background: 'linear-gradient(to left, transparent, #d4a94e)' }} />
   </div>
@@ -32,8 +32,8 @@ function PersonCard({ side, name, relation, parents, note, delay = '0s' }) {
 }
 
 export default function Couple() {
-  const headRef  = useFadeUp()
-  const ruleRef  = useFadeUp()
+  const headRef = useFadeUp()
+  const ruleRef = useFadeUp()
   const ringsRef = useFadeUp()
 
   return (
@@ -46,6 +46,7 @@ export default function Couple() {
           name="Ninan"
           relation="Son of"
           parents="Shantu Padayattil & Bindu Shantu"
+          note="Padayattil House,Angamaly,Ernakulam"
           delay="0s"
         />
 
@@ -56,7 +57,7 @@ export default function Couple() {
         <PersonCard
           name="Anu"
           relation="Daughter of"
-          parents="Thekkanath Pulickalan Paulachan & Litty Paul"
+          parents="Paulachan T P & Litty Paul"
           note="Thekkanath Pulickalan House, Besleham, Karukutty, Ernakulam"
           delay="0.1s"
         />

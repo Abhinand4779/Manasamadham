@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 
 const photos = [
   { src: '/photos/photo12.jpg', alt: 'Ninan & Anu — Walking together', wide: true },
-  { src: '/photos/photo7.jpg', alt: 'Ninan & Anu — Garden joy' },
+  { src: '/photos/IMG_4062.JPEG', alt: 'Ninan & Anu — Garden joy' },
   { src: '/photos/photo4.jpg', alt: 'Ninan & Anu — Staircase glance' },
   { src: '/photos/photo1.jpg', alt: 'Ninan & Anu — Hand in hand' },
   { src: '/photos/photo2.jpg', alt: 'Ninan & Anu — Together' },

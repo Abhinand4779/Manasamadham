@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 
 const CrossSVG = () => (
   <svg className="hero-cross" viewBox="0 0 24 24" aria-hidden="true">
-    <path d="M11 2v6H5v4h6v10h4V12h6V8h-6V2h-4z"/>
+    <path d="M11 2v6H5v4h6v10h4V12h6V8h-6V2h-4z" />
   </svg>
 )
 
@@ -24,7 +24,7 @@ export default function Hero() {
 
       <div className="hero-content">
         <CrossSVG />
-        <div className="hero-label">Manasamadham</div>
+        <div className="hero-label">Betrothal</div>
         <h1 className="hero-names">
           <span className="name">Ninan</span>
           <span className="amp">&amp;</span>

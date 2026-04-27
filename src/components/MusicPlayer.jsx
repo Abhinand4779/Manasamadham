@@ -44,7 +44,7 @@ export default function MusicPlayer() {
     <>
       {/* Background music — replace src with a hosted romantic track */}
       <audio ref={audioRef} loop preload="none">
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+        <source src="/Thullum Nenjam(KoshalWorld.Com).mp3" type="audio/mpeg" />
       </audio>
 
       <button className="music-player" onClick={toggle} aria-label={playing ? 'Pause music' : 'Play music'}>
