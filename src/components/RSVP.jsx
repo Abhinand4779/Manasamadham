@@ -2,7 +2,7 @@ import { useState } from 'react'
 import useFadeUp from '../hooks/useFadeUp'
 
 // Replace with actual WhatsApp number (international format, no +)
-const WA_NUMBER = '919446990357'
+const WA_NUMBER = '918301033618'
 const WA_MESSAGE = encodeURIComponent(
   'Hello! I would love to attend the Betrothal of Ninan & Anu on 05 July 2026. 🙏'
 )
@@ -61,7 +61,7 @@ export default function RSVP() {
       <div className="contact-info fade-up" ref={contactRef}>
         For enquiries, please contact:<br />
         {/* Replace with real contact number */}
-        <a href="tel:+910000000000">+91 9446990357</a>
+        <a href="tel:+910000000000"> +91 83010 33618</a>
       </div>
     </section>
   )

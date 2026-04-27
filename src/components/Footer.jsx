@@ -27,7 +27,7 @@ export default function Footer() {
       <CrossSVG />
 
       <div className="best-wishes-container fade-up" ref={wishRef}>
-        <div className="best-wishes-title">Best Wishes</div>
+        <div className="best-wishes-title">Sharing the Happiness</div>
         <div className="best-wishes-list">
           {bestWishes.map((line, i) => (
             <span key={i}>

@@ -8,11 +8,13 @@ import Blessing from './components/Blessing'
 import RSVP from './components/RSVP'
 import Footer from './components/Footer'
 import MusicPlayer from './components/MusicPlayer'
+import WhatsAppFloat from './components/WhatsAppFloat'
 
 export default function App() {
   return (
     <>
       <MusicPlayer />
+      <WhatsAppFloat />
       <Hero />
       <Countdown />
       <Couple />
