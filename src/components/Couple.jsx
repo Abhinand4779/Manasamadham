@@ -45,8 +45,7 @@ export default function Couple() {
         <PersonCard
           name="Ninan"
           relation="Son of"
-          parents="Shantu Padayattil & Bindu Shantu"
-          note="Padayattil House,Angamaly,Ernakulam"
+          parents="Mrs. Bindu Shantu & Mr. Shantu PT"
           delay="0s"
         />
 
@@ -57,8 +56,7 @@ export default function Couple() {
         <PersonCard
           name="Anu"
           relation="Daughter of"
-          parents="Paulachan T P & Litty Paul"
-          note="Thekkanath Pulickalan House, Besleham, Karukutty, Ernakulam"
+          parents="Mrs. Litty Paul & Mr. Paulachan T.P"
           delay="0.1s"
         />
       </div>
