@@ -2,7 +2,7 @@ import { useState } from 'react'
 import useFadeUp from '../hooks/useFadeUp'
 
 // Replace with actual WhatsApp number (international format, no +)
-const WA_NUMBER = '918301033618'
+const WA_NUMBER = '+61422498024'
 const WA_MESSAGE = encodeURIComponent(
   'Hello! I would love to attend the Betrothal of Ninan & Anu on 05 July 2026. 🙏'
 )
